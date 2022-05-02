@@ -148,7 +148,7 @@ class App extends React.Component {
     return(
       <div id="app">
         <h1 id="title">25 + 5 Clock</h1>
-        <p id="codedBy">Coded by Cyndoriil</p>
+        <p id="codedBy">Coded by Valerio Caporali</p>
         <div id="time-left-div">
           <h2 id="time-left">{this.format(this.state.time)}</h2>
           <h2 id="timer-label">{this.state.type}</h2>  
